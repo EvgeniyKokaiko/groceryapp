@@ -1,0 +1,27 @@
+{
+  "store": [
+    {
+      "photo": "https://i5.walmartimages.ca/images/Enlarge/272/109/6000191272109.jpg",
+      "name": "Cavzxcvbbage",
+      "description": "Simple Cabbage",
+      "quantity": "108",
+      "color": "Green",
+      "weight": "2KG",
+      "size": {
+        "width": "40",
+        "height": "40",
+        "depth": "40"
+      },
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "name": "Eugene",
+      "text": "Awesome Banana",
+      "date": "22.08.2021",
+      "id": 2,
+      "productId": 2
+    }
+  ]
+}
