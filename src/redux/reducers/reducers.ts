@@ -1,36 +1,34 @@
-import {combineReducers} from "redux";
-import {DispatchObj} from "../../Interfaces";
-import {ActionTypes} from "../types";
+import { combineReducers } from "redux";
+import { DispatchObj } from "../../Interfaces";
+import { ActionTypes } from "../types";
 
+function DataReducer(state = [], action: DispatchObj) {
+  if (action.type === ActionTypes.FetchData) {
+    return action.payload;
+  }
 
-function DataReducer (state = [], action: DispatchObj) {
-    if (action.type === ActionTypes.FetchData) {
-        return action.payload
-    }
-
-    return state
+  return state;
 }
 
-function AddSomethingReducer (state = {}, action: DispatchObj) {
-    if (action.type === ActionTypes.AddNewItem) {}
-    if(action.type === ActionTypes.AddComment) {}
-    if(action.type === ActionTypes.DeleteComment) {}
-    if(action.type === ActionTypes.DeleteItem) {}
-    return state
+function AddSomethingReducer(state = {}, action: DispatchObj) {
+  if (action.type === ActionTypes.AddNewItem) {}
+  if (action.type === ActionTypes.AddComment) {}
+  if (action.type === ActionTypes.DeleteComment) {}
+  if (action.type === ActionTypes.DeleteItem) {}
+  if (action.type === ActionTypes.ChangeItem) {}
+  return state;
 }
 
 function CommentsReducer(state = [], action: DispatchObj) {
-    if (action.type === ActionTypes.FetchComments) {
-        console.log(true)
-        return action.payload
-    }
+  if (action.type === ActionTypes.FetchComments) {
+    return action.payload;
+  }
 
-    return state
+  return state;
 }
 
-
 export default combineReducers({
-    DataReducer,
-    AddSomethingReducer,
-    CommentsReducer
-})
+  DataReducer,
+  AddSomethingReducer,
+  CommentsReducer,
+});

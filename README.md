@@ -9,6 +9,8 @@
 * **Typescript**
 
 * **JSON-Server**
+
+* **Semantic-UI**
 ##Author: Evgeniy Kokaiko
 
 

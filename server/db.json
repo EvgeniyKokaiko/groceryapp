@@ -2,9 +2,9 @@
   "store": [
     {
       "photo": "https://i5.walmartimages.ca/images/Enlarge/272/109/6000191272109.jpg",
-      "name": "Cavzxcvbbage",
+      "name": "Cabbage",
       "description": "Simple Cabbage",
-      "quantity": "108",
+      "quantity": "54",
       "color": "Green",
       "weight": "2KG",
       "size": {
@@ -13,15 +13,50 @@
         "depth": "40"
       },
       "id": 2
+    },
+    {
+      "photo": "https://static.libertyprim.com/files/varietes/pomme-akane-large.jpg?1569320193",
+      "name": "Apple",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet orci ac purus rhoncus egestas ut vel libero. Nam blandit purus ante, at pretium ante faucibus sit amet. Nullam ornare lacus id ultrices maximus. Aliquam metus ligula, imperdiet non.",
+      "quantity": "1000",
+      "color": "red",
+      "weight": "40gr",
+      "size": {
+        "width": "10",
+        "height": "10",
+        "depth": "10"
+      },
+      "id": 3
     }
   ],
   "comments": [
     {
-      "name": "Eugene",
-      "text": "Awesome Banana",
-      "date": "22.08.2021",
-      "id": 2,
-      "productId": 2
+      "name": "43124",
+      "text": "23423423442134124",
+      "date": "12.07.2021",
+      "productId": "3",
+      "id": 7
+    },
+    {
+      "name": "43124",
+      "text": "23423423442134124",
+      "date": "12.07.2021",
+      "productId": "3",
+      "id": 8
+    },
+    {
+      "name": "43124",
+      "text": "23423423442134124",
+      "date": "12.07.2021",
+      "productId": "3",
+      "id": 9
+    },
+    {
+      "name": "312",
+      "text": "123",
+      "date": "12.07.2021",
+      "productId": "2",
+      "id": 10
     }
   ]
 }
