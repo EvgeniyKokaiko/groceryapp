@@ -1,4 +1,4 @@
-##Grocery App:
+##Grocery App: https://github.com/EvgeniyKokaiko/groceryapp
 ###Stack:
 * **React**
 
@@ -45,25 +45,15 @@ localhost:3000
 
 ###Server
 
-**First, open server folder, and install dependencies:**
 
-```bash
-npm install
-
-or
-
-yarn install
-```
 **If all dependencies was successfully install, run server:**
 
 ```bash
-npm start
+npm run server
 # or
-yarn start
+yarn run server
 ```
 
 **And then return to client, with which you can fully interact.**
-
-##Deployed on Vercel
-##Link: 
+ 
 
